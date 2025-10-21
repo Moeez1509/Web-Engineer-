@@ -1,0 +1,155 @@
+# Web-Engineer-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000e0;;
+    margin-top: 0;
+   border: 2px solid #0b0b0b;
+   color: rgb(236, 234, 234);
+
+
+}
+
+.navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-left: 7;
+    text-align: center;
+}
+
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links li {
+    margin: 0 1rem;
+}
+
+.navbar-links a {
+    padding: 0.5rem 1rem;
+    background-color:#222121bc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: gray;
+}
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke; 
+    }
+  .web{
+     color: rgb(236, 234, 234);
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+  }
+  .tm{
+  border: 1px solid black;
+  width : 100%;
+  }
+.hello{
+ background-color:gray;
+
+  }
+  .newrecord{
+  border: 6px solid black; 
+  font-size: 20px;
+   padding: 12px 25px; 
+   background-color: gray; 
+  }
+  .basit{
+    text-align: center;
+    background-color: rgb(63, 167, 2);
+    padding: 30px;  
+    margin-bottom: 0;
+}
+    
+</style>
+</head>
+<body>
+  <h1 class="basit">My Website</h1>
+        <nav class="navbar">
+           
+                  <div style="color: #f6f5f5;"><p>My Website</p></div>
+            
+            <ul class="navbar-links">
+                <li style="text-align: center ;"><a href="http://127.0.0.1:5500/html2.html">Home</a></li>
+                <li style="text-align: center;"><a href="http://127.0.0.1:5500/1.html">About</a></li>
+                <li style="text-align: center;"><a href="#">Services</a></li>
+                <li style="text-align: center;"><a href="">Privacy</a></li>
+                <li style="text-align: center;"><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+
+
+<h1 style="text-align: center;">Main Area</h1>
+<table class="tm" >
+  <tr class="hello" height=30px>
+    <th>Name</th>
+    <th>Father Name</th>
+    <th>Mobile Number</th>
+    <th>Address</th>
+  </tr>
+  <tr>
+    <td>Moeez Intasar</td>
+    <td>Muhammad Intasar Hussain</td>
+    <td>03115711279</td>
+    <td>Rawalpindi</td>
+  </tr>
+  <tr>
+    <td>M Basit Raza</td>
+    <td>Muhammad shafique</td>
+    <td>03123455676</td>
+    <td>Chakwal</td>
+  </tr>
+  <tr>
+    <td>Huzaifa Yaqoob</td>
+    <td>Moeez Intasar</td>
+    <td>03456789977</td>
+    <td>Islamabad</td>
+  </tr>
+  <tr>
+    <td>Ali Khan</td>
+    <td>Ahmed Khan</td>
+    <td>03132547689</td>
+    <td>Lahore</td>
+  </tr>
+  
+</table>
+<table >
+<tr><th  class="newrecord" >Insert New Record</th></tr>
+  <tr><th style="border: 2px solid black;">
+<form >
+  <label for="name">Name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="name">Father Name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+    <label for="Number">Contact Number:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+    <label for="Address">Address:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form></th></tr>
+</table> 
+</body>
+</html>
