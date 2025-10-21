@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000e0;;
+    margin-top: 0;
+   border: 2px solid #0b0b0b;
+   color: rgb(236, 234, 234);
+
+
+}
+
+.navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-left: 7;
+    text-align: center;
+}
+
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links li {
+    margin: 0 1rem;
+}
+
+.navbar-links a {
+    padding: 0.5rem 1rem;
+    background-color:#222121bc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: gray;
+}
+
+
+
+
+  
+   /* .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+  }
+
+  .navbar li {
+    margin: 0 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 12px 25px;  
+    border: 2px solid black;
+    border-radius: 8px;   
+    background: white;   
+    display: inline-block;
+  }
+
+  .navbar a:hover {
+    background: lightblue;
+    color: white;
+  } */
+   
+
+  .web{
+    text-align: center;
+    background-color:rgb(189, 28, 28);
+  }
+  
+  .basit{
+    text-align: center;
+    background-color: rgb(63, 167, 2);
+    padding: 30px;  
+    margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+<h1 class="basit">My Website</h1>
+        <nav class="navbar">
+            
+           
+                  <div style="color: #f6f5f5;"><p>My Website</p></div>
+            </div>
+            <ul class="navbar-links">
+                <li style="text-align: center ;"><a href="http://127.0.0.1:5500/html2.html">Home</a></li>
+                <li style="text-align: center;"><a href="http://127.0.0.1:5500/1.html">About</a></li>
+                <li style="text-align: center;"><a href="#">Services</a></li>
+                <li style="text-align: center;"><a href="">Privacy</a></li>
+                <li style="text-align: center;"><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+
+
+
+
+
+
+
+<!-- <h1 class="web">My Websie</h1>
+   
+<nav>
+   <ul class="navbar">
+                <li  style=" text-align: center;"  ><a href="http://127.0.0.1:5500/acedmey/tm.html">Home</a></li>
+                <li style=" text-align: center;" ><a href="http://127.0.0.1:5500/acedmey/tm1.html">About</a></li>
+                <li style=" text-align: center;" ><a href="#">Services</a></li>
+                <li style=" text-align: center;" ><a href="">Privacy</a></li>
+                <li style=" text-align: center;"  ><a href="#">Contact</a></li>
+
+            </ul>
+</nav> -->
+<h3>Video From Youtube Is Here:</h3>
+<iframe width="640" height="360" src="https://youtu.be/-TrAyUw0KeA?si=jNyfvVgPlvLiUidB"></iframe>
+<h3>Video From Youtube Is Here:</h3>
+<video width="640" height="360" controls>
+    <source src="/WhatsApp Video 2025-05-02 at 14.24.47_4c4ef321.mp4" type="video/mp4">
+   
+  </video>
+</body> 
+</html>
